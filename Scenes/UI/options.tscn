@@ -1,9 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://cuo51ovm80pha"]
+[gd_scene load_steps=5 format=3 uid="uid://cuo51ovm80pha"]
 
 [ext_resource type="Script" path="res://Scripts/UI/OptionSliders.gd" id="1_6ii13"]
 [ext_resource type="Texture2D" uid="uid://clgmgjlrdsot0" path="res://Assets/Graphics/UI/Game Volume.png" id="2_1masp"]
 [ext_resource type="Texture2D" uid="uid://ci4gtorbgcl3q" path="res://Assets/Graphics/UI/Back.png" id="2_kxuu0"]
-[ext_resource type="AudioStream" uid="uid://jxkadcbiu5q6" path="res://Assets/Audio/Click.wav" id="2_wbt4c"]
 [ext_resource type="Texture2D" uid="uid://dgeuitcsncikl" path="res://Assets/Graphics/UI/SFX Volume.png" id="3_w3wke"]
 
 [node name="Options" type="AspectRatioContainer" node_paths=PackedStringArray("MusicSlider", "SFXSlider")]
@@ -17,11 +16,6 @@ script = ExtResource("1_6ii13")
 scenePath = "res://Scenes/UI/main_menu.tscn"
 MusicSlider = NodePath("MarginContainer/HBoxContainer/Music Volume Container/MusicSlider")
 SFXSlider = NodePath("MarginContainer/HBoxContainer/SFX Container/SFXSlider")
-
-[node name="Click" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("2_wbt4c")
-volume_db = 12.0
-bus = &"SFX"
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2
