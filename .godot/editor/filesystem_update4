@@ -1,0 +1,5 @@
+res://Scenes/UI/options.tscn
+res://Scenes/UI/main_menu.tscn
+res://Scenes/Global/MainMusicPlayer.tscn
+res://Scripts/UI/OptionSliders.gd
+res://Scripts/UI/main_menu.gd

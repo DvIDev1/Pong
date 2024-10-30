@@ -1,0 +1,38 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Pong"
+config/version="1.0"
+run/main_scene="res://Scenes/UI/main_menu.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
+config/icon="res://Assets/Graphics/UI/Icon.png"
+
+[audio]
+
+buses/default_bus_layout="res://Elements/Mixers/MusicMixer.tres"
+
+[autoload]
+
+MainMusicPlayer="*res://Scenes/Global/MainMusicPlayer.tscn"
+DiscordRPCLoader="*res://addons/discord-rpc-gd/nodes/discord_autoload.gd"
+
+[dotnet]
+
+project/assembly_name="Pong"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/discord-rpc-gd/plugin.cfg")
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)

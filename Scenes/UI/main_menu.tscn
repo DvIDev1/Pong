@@ -1,0 +1,59 @@
+[gd_scene load_steps=8 format=3 uid="uid://b380l25iffn27"]
+
+[ext_resource type="Script" path="res://Scripts/UI/main_menu.gd" id="1_petbn"]
+[ext_resource type="Texture2D" uid="uid://coix21kwtrsjd" path="res://Assets/Graphics/UI/Title.png" id="2_s078a"]
+[ext_resource type="Texture2D" uid="uid://dad57hen2sgyy" path="res://Assets/Graphics/UI/p1vp2.png" id="3_e0ka7"]
+[ext_resource type="Texture2D" uid="uid://byj31nygo03af" path="res://Assets/Graphics/UI/p1vcpu.png" id="4_s51nw"]
+[ext_resource type="Texture2D" uid="uid://bjcc6iev6u2v3" path="res://Assets/Graphics/UI/Options.png" id="5_41dd1"]
+[ext_resource type="Script" path="res://Scripts/UI/Options.gd" id="6_qo4na"]
+
+[sub_resource type="GDScript" id="GDScript_8gopo"]
+script/source = "extends VBoxContainer
+
+
+"
+
+[node name="Main Menu" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 120
+theme_override_constants/margin_top = 80
+theme_override_constants/margin_right = 120
+theme_override_constants/margin_bottom = 80
+script = ExtResource("1_petbn")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+script = SubResource("GDScript_8gopo")
+
+[node name="Logo" type="TextureRect" parent="HBoxContainer/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("2_s078a")
+stretch_mode = 2
+
+[node name="MenuOptions" type="VBoxContainer" parent="HBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="P1vsP2" type="TextureButton" parent="HBoxContainer/VBoxContainer/MenuOptions"]
+layout_mode = 2
+texture_normal = ExtResource("3_e0ka7")
+
+[node name="P1vsCPU" type="TextureButton" parent="HBoxContainer/VBoxContainer/MenuOptions"]
+layout_mode = 2
+texture_normal = ExtResource("4_s51nw")
+
+[node name="Options" type="TextureButton" parent="HBoxContainer/VBoxContainer/MenuOptions"]
+layout_mode = 2
+texture_normal = ExtResource("5_41dd1")
+script = ExtResource("6_qo4na")
+
+[connection signal="mouse_entered" from="HBoxContainer/VBoxContainer/MenuOptions/Options" to="HBoxContainer/VBoxContainer/MenuOptions/Options" method="_on_mouse_entered"]
