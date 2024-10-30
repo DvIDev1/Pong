@@ -1,8 +1,9 @@
 extends MarginContainer
 
-var count : float = 0.0
+var count : float
 
 func _ready():
+	
 	position = Vector2(0 , -600)
 	MainMusicPlayer._play_music_level()
 	
@@ -23,5 +24,5 @@ func _process(delta):
 
 func Intro() -> void : 
 	if (count <= 1) :
-		count += 0.001
+		count += 0.005
 	position.y = EasingFunctions.ease_out_bounce(position.y , 0 , count)
