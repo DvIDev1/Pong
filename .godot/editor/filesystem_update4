@@ -10,3 +10,4 @@ res://Scripts/Game/Game.gd
 res://sfx_engine.gd
 res://Scenes/Global/sfx_engine.tscn
 res://Scenes/Global/SFXPlayer.tscn
+res://Scripts/Global/SFXPlayer.gd

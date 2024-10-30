@@ -1,5 +1,12 @@
 extends AudioStreamPlayer
 
 
-func playSFX(music: AudioStream , volume = 0.0) :
+func playSFX(sfx: AudioStream , volume = 0.0) :
+	
+	stream = sfx
+	
+	volume_db = volume
+	
+	play()
+	
 	pass

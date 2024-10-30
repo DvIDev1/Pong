@@ -1,7 +1,8 @@
 extends MarginContainer
 
 var count : float
-@onready var clickSFX = $Click
+
+const clickSFX = preload("res://Assets/Audio/Click.wav") 
 
 func _ready():
 	
@@ -37,13 +38,11 @@ func Intro() -> void :
 
 
 func _on_p_1_vs_p_2_button_down() -> void:
-	clickSFX.play()
-	print("SFX Played")
+	SfxPlayer.playSFX(clickSFX , 2)
 	MainMusicPlayer._stop_music()
 	get_tree().change_scene_to_file("res://Scenes/Game/p_1vsp_2.tscn")
 
 
 func _on_options_button_down() -> void:
-	clickSFX.play()
-	print("SFX Played")
+	SfxPlayer.playSFX(clickSFX , 2)
 	get_tree().change_scene_to_file("res://Scenes/UI/options.tscn")

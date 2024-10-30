@@ -24,6 +24,7 @@ buses/default_bus_layout="res://Elements/Mixers/MusicMixer.tres"
 
 MainMusicPlayer="*res://Scenes/Global/MainMusicPlayer.tscn"
 DiscordRPCLoader="*res://addons/discord-rpc-gd/nodes/discord_autoload.gd"
+SfxPlayer="*res://Scripts/Global/SFXPlayer.gd"
 
 [dotnet]
 
