@@ -3,3 +3,10 @@ res://Scripts/UI/OptionSliders.gd
 res://Scenes/UI/options.tscn
 res://Scenes/Global/MainMusicPlayer.tscn
 res://Scripts/UI/main_menu.gd
+res://Scripts/UI/Options.gd
+res://Scripts/Global/MainMusicPlayer.gd
+res://Scenes/Game/p_1vsp_2.tscn
+res://Scripts/Game/Game.gd
+res://sfx_engine.gd
+res://Scenes/Global/sfx_engine.tscn
+res://Scenes/Global/SFXPlayer.tscn

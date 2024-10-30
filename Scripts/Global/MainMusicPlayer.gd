@@ -12,3 +12,6 @@ func _play_music(music: AudioStream, volume: = 0.0):
 
 func _play_music_level():
 	_play_music(Main_Music)
+
+func _stop_music() :
+	stream = null	

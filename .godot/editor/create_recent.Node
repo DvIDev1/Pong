@@ -1,3 +1,4 @@
+AudioStreamPlayer
 AspectRatioContainer
 MarginContainer
 TextureButton
@@ -7,7 +8,6 @@ HBoxContainer
 Control
 Node
 HSlider
-AudioStreamPlayer
 OptionButton
 CodeEdit
 TextEdit
