@@ -1,6 +1,5 @@
 extends AudioStreamPlayer
 
-
 func playSFX(sfx: AudioStream , volume = 0.0) :
 	
 	stream = sfx
@@ -8,5 +7,3 @@ func playSFX(sfx: AudioStream , volume = 0.0) :
 	volume_db = volume
 	
 	play()
-	
-	pass

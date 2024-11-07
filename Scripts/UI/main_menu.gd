@@ -33,16 +33,16 @@ func _process(delta):
 func Intro() -> void : 
 	if (count <= 1) :
 		count += 0.005
-	position.y = EasingFunctions.ease_out_bounce(position.y , 0 , count)
+	position.y = EaseFunctions.ease_out_bounce(position.y , 0 , count)
 
 
 
 func _on_p_1_vs_p_2_button_down() -> void:
-	SfxPlayer.playSFX(clickSFX , 2)
+	SFXPlayer.playSFX(clickSFX)
 	MainMusicPlayer._stop_music()
 	get_tree().change_scene_to_file("res://Scenes/Game/p_1vsp_2.tscn")
 
 
 func _on_options_button_down() -> void:
-	SfxPlayer.playSFX(clickSFX , 2)
+	SFXPlayer.playSFX(clickSFX)
 	get_tree().change_scene_to_file("res://Scenes/UI/options.tscn")

@@ -34,7 +34,8 @@ func _on_h_slider_value_changed(value):
 func _on_sfx_slider_value_changed(value):
 	AudioServer.set_bus_volume_db(SFXBus , value)
 	
-	SfxPlayer.playSFX(clickSFX , 2)
+	
+	SFXPlayer.playSFX(clickSFX)
 	
 	if value == MusicSlider.min_value:
 		AudioServer.set_bus_mute(SFXBus , true)
@@ -44,5 +45,5 @@ func _on_sfx_slider_value_changed(value):
 
 
 func _on_back_pressed():
-	SfxPlayer.playSFX(clickSFX , 2)
+	SFXPlayer.playSFX(clickSFX)
 	get_tree().change_scene_to_file(scenePath)
