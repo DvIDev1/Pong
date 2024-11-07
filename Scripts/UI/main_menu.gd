@@ -16,6 +16,8 @@ func _ready():
 	DiscordRPC.large_image = "logo"
 	DiscordRPC.large_image_text = "Just Pong"
 	
+	$IntroAnim.play("IntroAnim")
+	
 	DiscordRPC.refresh() 
 
 func _process(delta):
@@ -23,17 +25,20 @@ func _process(delta):
 		MainMusicPlayer._play_music_level()
 
 	
-	Intro()
+	#Intro()
+	
+	
+
 	
 	if Input.is_action_just_pressed("ESC") :
 		get_tree().quit()
 	
 	
 
-func Intro() -> void : 
-	if (count <= 1) :
-		count += 0.005
-	position.y = EaseFunctions.ease_out_bounce(position.y , 0 , count)
+#func Intro() -> void : 
+	#if (count <= 1) :
+		#count += 0.005
+	#position.y = EaseFunctions.ease_out_bounce(position.y , 0 , count)
 
 
 

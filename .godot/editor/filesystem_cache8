@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1730971529
+::res://::1730989208
 export_presets.cfg::TextFile::-1::1730297020::0::1::::<><>::
 ::res://addons/::1730280816
 ::res://addons/discord-rpc-gd/::1730280844
@@ -15,7 +15,7 @@ restart_window.tscn::PackedScene::4076847685139362056::1730280817::0::1::::<><>:
 discord-rpc-gd.gdextension::GDExtension::-1::1730280816::0::1::::<><>::
 ::res://addons/discord-rpc-gd/bin/linux/::1730280816
 ::res://addons/discord-rpc-gd/bin/macos/::1730280816
-::res://addons/discord-rpc-gd/bin/windows/::1730971524
+::res://addons/discord-rpc-gd/bin/windows/::1730989204
 ::res://addons/discord-rpc-gd/nodes/::1730280817
 debug.gd::GDScript::-1::1730280817::0::1::::<>Node<>::
 Debug.tscn::PackedScene::6635590667203094151::1730280817::0::1::::<><>::uid://dnfq6kug4x6o2::::res://addons/discord-rpc-gd/nodes/assets/Checked.svg<>uid://compmm3kviqqe::::res://addons/discord-rpc-gd/nodes/assets/Unchecked.svg<>uid://dtc6ckladq0td::::res://addons/discord-rpc-gd/nodes/assets/circle.svg
@@ -40,27 +40,27 @@ p1vp2.png::CompressedTexture2D::7167334213999558592::1730280816::1730280844::1::
 SFX Volume.png::CompressedTexture2D::7589882251998864799::1730280816::1730280844::1::::<><>::
 Title.png::CompressedTexture2D::5773446289701001461::1730280816::1730280844::1::::<><>::
 ::res://Elements/::1730280816
-::res://Elements/Mixers/::1730280816
-MusicMixer.tres::AudioBusLayout::2837011748484697921::1730280816::0::1::::<><>::
+::res://Elements/Mixers/::1730973130
+MusicMixer.tres::AudioBusLayout::2837011748484697921::1730973130::0::1::::<><>::
 SFX.tres::AudioBusLayout::4257769473134840630::1730280816::0::1::::<><>::
 ::res://Scenes/::1730285123
-::res://Scenes/Game/::1730303388
-p_1vsp_2.tscn::PackedScene::2413806616353913112::1730303388::0::1::::<><>::res://Scripts/Game/Game.gd
-::res://Scenes/Global/::1730303389
-MainMusicPlayer.tscn::PackedScene::3070770510073996735::1730303388::0::1::::<><>::res://Scripts/Global/MainMusicPlayer.gd
-SFXPlayer.tscn::PackedScene::2742808072468994342::1730303389::0::1::::<><>::res://Scripts/Global/SFXPlayer.gd
-::res://Scenes/UI/::1730303388
-main_menu.tscn::PackedScene::4421371804839059810::1730303388::0::1::::<><>::res://Scripts/UI/main_menu.gd<>uid://coix21kwtrsjd::::res://Assets/Graphics/UI/Title.png<>uid://dad57hen2sgyy::::res://Assets/Graphics/UI/p1vp2.png<>uid://byj31nygo03af::::res://Assets/Graphics/UI/p1vcpu.png<>uid://bjcc6iev6u2v3::::res://Assets/Graphics/UI/Options.png
-options.tscn::PackedScene::6207388237486326978::1730303388::0::1::::<><>::res://Scripts/UI/OptionSliders.gd<>uid://clgmgjlrdsot0::::res://Assets/Graphics/UI/Game Volume.png<>uid://ci4gtorbgcl3q::::res://Assets/Graphics/UI/Back.png<>uid://dgeuitcsncikl::::res://Assets/Graphics/UI/SFX Volume.png
+::res://Scenes/Game/::1730982665
+p_1vsp_2.tscn::PackedScene::2413806616353913112::1730982665::0::1::::<><>::res://Scripts/Game/Game.gd
+::res://Scenes/Global/::1730982665
+MainMusicPlayer.tscn::PackedScene::3070770510073996735::1730982665::0::1::::<><>::res://Scripts/Global/MainMusicPlayer.gd
+SFXPlayer.tscn::PackedScene::2742808072468994342::1730982665::0::1::::<><>::res://Scripts/Global/SFXPlayer.gd
+::res://Scenes/UI/::1730982665
+main_menu.tscn::PackedScene::4421371804839059810::1730982665::0::1::::<><>::res://Scripts/UI/main_menu.gd<>uid://coix21kwtrsjd::::res://Assets/Graphics/UI/Title.png<>uid://dad57hen2sgyy::::res://Assets/Graphics/UI/p1vp2.png<>uid://byj31nygo03af::::res://Assets/Graphics/UI/p1vcpu.png<>uid://bjcc6iev6u2v3::::res://Assets/Graphics/UI/Options.png
+options.tscn::PackedScene::6207388237486326978::1730982665::0::1::::<><>::res://Scripts/UI/OptionSliders.gd<>uid://clgmgjlrdsot0::::res://Assets/Graphics/UI/Game Volume.png<>uid://ci4gtorbgcl3q::::res://Assets/Graphics/UI/Back.png<>uid://dgeuitcsncikl::::res://Assets/Graphics/UI/SFX Volume.png
 ::res://Scripts/::1730295682
 icon.svg::CompressedTexture2D::5766691439608196572::1730280817::1730295682::1::::<><>::
 ::res://Scripts/Game/::1730296902
 Game.gd::GDScript::-1::1730296902::0::1::::<>Node2D<>::
-::res://Scripts/Global/::1730296638
+::res://Scripts/Global/::1730973416
 MainMusicPlayer.gd::GDScript::-1::1730295596::0::1::::<>AudioStreamPlayer<>::
-SFXPlayer.gd::GDScript::-1::1730296638::0::1::::<>AudioStreamPlayer<>::
+SFXPlayer.gd::GDScript::-1::1730973416::0::1::::<>AudioStreamPlayer<>::
 ::res://Scripts/Math/::1730280816
 EasingFunctions.gd::GDScript::-1::1730280816::0::1::::EasingFunctions<>Node<>::
-::res://Scripts/UI/::1730296767
-main_menu.gd::GDScript::-1::1730296767::0::1::::<>MarginContainer<>::
-OptionSliders.gd::GDScript::-1::1730296767::0::1::::<>Control<>::
+::res://Scripts/UI/::1730975067
+main_menu.gd::GDScript::-1::1730975067::0::1::::<>MarginContainer<>::
+OptionSliders.gd::GDScript::-1::1730973438::0::1::::<>Control<>::

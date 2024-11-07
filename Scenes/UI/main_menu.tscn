@@ -1,10 +1,46 @@
-[gd_scene load_steps=6 format=3 uid="uid://b380l25iffn27"]
+[gd_scene load_steps=9 format=3 uid="uid://b380l25iffn27"]
 
 [ext_resource type="Script" path="res://Scripts/UI/main_menu.gd" id="1_petbn"]
 [ext_resource type="Texture2D" uid="uid://coix21kwtrsjd" path="res://Assets/Graphics/UI/Title.png" id="2_s078a"]
 [ext_resource type="Texture2D" uid="uid://dad57hen2sgyy" path="res://Assets/Graphics/UI/p1vp2.png" id="3_e0ka7"]
 [ext_resource type="Texture2D" uid="uid://byj31nygo03af" path="res://Assets/Graphics/UI/p1vcpu.png" id="4_s51nw"]
 [ext_resource type="Texture2D" uid="uid://bjcc6iev6u2v3" path="res://Assets/Graphics/UI/Options.png" id="5_41dd1"]
+
+[sub_resource type="Animation" id="Animation_skc4q"]
+resource_name = "IntroAnim"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0333333, 0.0666667, 0.1, 0.133333, 0.166667, 0.2, 0.233333, 0.266667, 0.3, 0.333333, 0.366667, 0.4, 0.433333, 0.466667, 0.5, 0.533333, 0.566667, 0.6, 0.633333, 0.666667, 0.7, 0.733333, 0.766667, 0.8, 0.833333, 0.866667, 0.9, 0.933333, 0.966667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, -600), Vector2(0, -594.958), Vector2(0, -579.833), Vector2(0, -554.625), Vector2(0, -519.333), Vector2(0, -473.958), Vector2(0, -418.5), Vector2(0, -352.958), Vector2(0, -277.333), Vector2(0, -191.625), Vector2(0, -95.8333), Vector2(0, -4.95831), Vector2(0, -54), Vector2(0, -92.9583), Vector2(0, -121.833), Vector2(0, -140.625), Vector2(0, -149.333), Vector2(0, -147.958), Vector2(0, -136.5), Vector2(0, -114.958), Vector2(0, -83.3333), Vector2(0, -41.625), Vector2(0, -4.83331), Vector2(0, -25.4583), Vector2(0, -36), Vector2(0, -36.4583), Vector2(0, -26.8333), Vector2(0, -7.125), Vector2(0, -7.33331), Vector2(0, -8.70837), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_dyl4t"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -600)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sf77m"]
+_data = {
+"IntroAnim": SubResource("Animation_skc4q"),
+"RESET": SubResource("Animation_dyl4t")
+}
 
 [node name="Main Menu" type="MarginContainer"]
 anchors_preset = 15
@@ -46,6 +82,13 @@ texture_normal = ExtResource("4_s51nw")
 [node name="Options" type="TextureButton" parent="HBoxContainer/VBoxContainer/MenuOptions"]
 layout_mode = 2
 texture_normal = ExtResource("5_41dd1")
+
+[node name="IntroAnim" type="AnimationPlayer" parent="."]
+reset_on_save = false
+libraries = {
+"": SubResource("AnimationLibrary_sf77m")
+}
+movie_quit_on_finish = true
 
 [connection signal="button_down" from="HBoxContainer/VBoxContainer/MenuOptions/P1vsP2" to="." method="_on_p_1_vs_p_2_button_down"]
 [connection signal="button_down" from="HBoxContainer/VBoxContainer/MenuOptions/Options" to="." method="_on_options_button_down"]

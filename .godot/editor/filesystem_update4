@@ -1,9 +1,6 @@
 res://Scenes/UI/main_menu.tscn
+res://Scripts/UI/main_menu.gd
 res://Scenes/UI/options.tscn
 res://Scenes/Game/p_1vsp_2.tscn
 res://Scenes/Global/MainMusicPlayer.tscn
 res://Scenes/Global/SFXPlayer.tscn
-res://Scripts/Global/SFXPlayer.gd
-res://Scripts/UI/main_menu.gd
-res://Scripts/UI/OptionSliders.gd
-res://Elements/Mixers/MusicMixer.tres
