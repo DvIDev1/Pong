@@ -1,5 +1,4 @@
 res://Scenes/UI/main_menu.tscn
-res://Scripts/UI/main_menu.gd
 res://Scenes/UI/options.tscn
 res://Scenes/Game/p_1vsp_2.tscn
 res://Scenes/Global/MainMusicPlayer.tscn

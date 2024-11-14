@@ -27,6 +27,12 @@ DiscordRPCLoader="*res://addons/discord-rpc-gd/nodes/discord_autoload.gd"
 SFXPlayer="*res://Scenes/Global/SFXPlayer.tscn"
 EaseFunctions="*res://Scripts/Math/EasingFunctions.gd"
 
+[display]
+
+window/size/viewport_width=858
+window/size/viewport_height=525
+window/size/resizable=false
+
 [dotnet]
 
 project/assembly_name="Pong"
