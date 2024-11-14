@@ -1,6 +1,95 @@
-[gd_scene load_steps=2 format=3 uid="uid://banjbo57dgqo3"]
+[gd_scene load_steps=10 format=3 uid="uid://banjbo57dgqo3"]
 
 [ext_resource type="Script" path="res://Scripts/Game/Game.gd" id="1_a7n15"]
+[ext_resource type="Texture2D" uid="uid://bigig7t8q5si3" path="res://Assets/Graphics/Game/Divider.png" id="2_fguaa"]
+[ext_resource type="FontFile" uid="uid://n3gjcadnugqx" path="res://Assets/Fonts/Minecraft.ttf" id="3_xwooh"]
+[ext_resource type="Script" path="res://Scripts/Game/player.gd" id="4_ejg8o"]
+[ext_resource type="Texture2D" uid="uid://bex5t2s8gbqa2" path="res://Assets/Graphics/Game/Paddle.png" id="5_l0tg6"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_4gao1"]
+b = Vector2(858, 0)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_2hcgf"]
+b = Vector2(-1, 524)
+
+[sub_resource type="LabelSettings" id="LabelSettings_vsgac"]
+font = ExtResource("3_xwooh")
+font_size = 52
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k3wl7"]
+size = Vector2(20, 60)
 
 [node name="P1VSP2" type="Node2D"]
 script = ExtResource("1_a7n15")
+
+[node name="Walls" type="Node" parent="."]
+
+[node name="Wall_Top" type="StaticBody2D" parent="Walls"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall_Top"]
+shape = SubResource("SegmentShape2D_4gao1")
+
+[node name="Wall_Bottom" type="StaticBody2D" parent="Walls"]
+position = Vector2(0, 525)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall_Bottom"]
+shape = SubResource("SegmentShape2D_4gao1")
+
+[node name="Wall_Left" type="StaticBody2D" parent="Walls"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall_Left"]
+shape = SubResource("SegmentShape2D_2hcgf")
+
+[node name="Wall_Right" type="StaticBody2D" parent="Walls"]
+position = Vector2(858, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall_Right"]
+shape = SubResource("SegmentShape2D_2hcgf")
+
+[node name="Divider" type="Sprite2D" parent="."]
+position = Vector2(429, 262)
+texture = ExtResource("2_fguaa")
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+offset_left = 215.0
+offset_right = 644.0
+offset_bottom = 80.0
+ratio = 1.75
+alignment_vertical = 0
+
+[node name="Score1" type="Label" parent="AspectRatioContainer"]
+layout_mode = 2
+text = "0
+"
+label_settings = SubResource("LabelSettings_vsgac")
+
+[node name="Score2" type="Label" parent="AspectRatioContainer"]
+layout_mode = 2
+text = "0
+"
+label_settings = SubResource("LabelSettings_vsgac")
+horizontal_alignment = 2
+
+[node name="Players" type="Node" parent="."]
+
+[node name="Player 1" type="CharacterBody2D" parent="Players"]
+position = Vector2(60, 262)
+script = ExtResource("4_ejg8o")
+player = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Players/Player 1"]
+shape = SubResource("RectangleShape2D_k3wl7")
+
+[node name="Paddle" type="Sprite2D" parent="Players/Player 1"]
+texture = ExtResource("5_l0tg6")
+
+[node name="Player 2" type="CharacterBody2D" parent="Players"]
+position = Vector2(798, 262)
+script = ExtResource("4_ejg8o")
+player = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Players/Player 2"]
+shape = SubResource("RectangleShape2D_k3wl7")
+
+[node name="Paddle" type="Sprite2D" parent="Players/Player 2"]
+texture = ExtResource("5_l0tg6")

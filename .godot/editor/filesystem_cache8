@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731582809
+::res://::1731585222
 export_presets.cfg::TextFile::-1::1730897823::0::1::::<><>::
 ::res://addons/::1730897822
 ::res://addons/discord-rpc-gd/::1731014170
@@ -24,12 +24,17 @@ discord_autoload.gd::GDScript::-1::1730897823::0::1::::<>Node<>::
 Checked.svg::CompressedTexture2D::8083066295081234619::1730897823::1731014170::1::::<><>::
 circle.svg::CompressedTexture2D::8498865176304625629::1730897823::1731014170::1::::<><>::
 Unchecked.svg::CompressedTexture2D::5781190569803204660::1730897823::1731014170::1::::<><>::
-::res://Assets/::1730897822
+::res://Assets/::1731588381
 ::res://Assets/Audio/::1731014170
 Click.wav::AudioStreamWAV::679787611729937655::1730897822::1731014170::1::::<><>::
 Pong_MainMenu.mp3::AudioStreamMP3::9070507199703160234::1730897822::1731014170::1::::<><>::
-::res://Assets/Graphics/::1730897822
-::res://Assets/Graphics/Aseprite/::1730897822
+::res://Assets/Fonts/::1731588413
+Minecraft.ttf::FontFile::970638023711010079::1436291138::1731588413::1::::<><>::
+::res://Assets/Graphics/::1731587345
+::res://Assets/Graphics/Aseprite/::1731588883
+::res://Assets/Graphics/Game/::1731588909
+Divider.png::CompressedTexture2D::2960815861647718980::1731587420::1731587421::1::::<><>::
+Paddle.png::CompressedTexture2D::2716513633900170595::1731588893::1731588909::1::::<><>::
 ::res://Assets/Graphics/UI/::1731014170
 Back.png::CompressedTexture2D::5394618065041109316::1730897822::1731014170::1::::<><>::
 Game Volume.png::CompressedTexture2D::5558044723085679351::1730897822::1731014170::1::::<><>::
@@ -44,14 +49,15 @@ Title.png::CompressedTexture2D::5773446289701001461::1730897822::1731014170::1::
 MusicMixer.tres::AudioBusLayout::2837011748484697921::1730897822::0::1::::<><>::
 SFX.tres::AudioBusLayout::4257769473134840630::1731014142::0::1::::<><>::
 ::res://Scenes/::1730897822
-::res://Scenes/Game/::1731014404
-p_1vsp_2.tscn::PackedScene::2413806616353913112::1731014404::0::1::::<><>::res://Scripts/Game/Game.gd
-::res://Scenes/Global/::1731014404
-MainMusicPlayer.tscn::PackedScene::3070770510073996735::1731014404::0::1::::<><>::res://Scripts/Global/MainMusicPlayer.gd
-SFXPlayer.tscn::PackedScene::2742808072468994342::1731014404::0::1::::<><>::res://Scripts/Global/SFXPlayer.gd
-::res://Scenes/UI/::1731014404
-main_menu.tscn::PackedScene::4421371804839059810::1731014404::0::1::::<><>::res://Scripts/UI/main_menu.gd<>uid://coix21kwtrsjd::::res://Assets/Graphics/UI/Title.png<>uid://dad57hen2sgyy::::res://Assets/Graphics/UI/p1vp2.png<>uid://byj31nygo03af::::res://Assets/Graphics/UI/p1vcpu.png<>uid://bjcc6iev6u2v3::::res://Assets/Graphics/UI/Options.png
-options.tscn::PackedScene::6207388237486326978::1731014404::0::1::::<><>::res://Scripts/UI/OptionSliders.gd<>uid://clgmgjlrdsot0::::res://Assets/Graphics/UI/Game Volume.png<>uid://ci4gtorbgcl3q::::res://Assets/Graphics/UI/Back.png<>uid://dgeuitcsncikl::::res://Assets/Graphics/UI/SFX Volume.png
+::res://Scenes/Game/::1731589763
+p_1vsp_2.tscn::PackedScene::2413806616353913112::1731586155::0::1::::<><>::res://Scripts/Game/Game.gd
+player.gd::GDScript::-1::1731589763::0::1::::<>CharacterBody2D<>::
+::res://Scenes/Global/::1731585223
+MainMusicPlayer.tscn::PackedScene::3070770510073996735::1731585223::0::1::::<><>::res://Scripts/Global/MainMusicPlayer.gd
+SFXPlayer.tscn::PackedScene::2742808072468994342::1731585223::0::1::::<><>::res://Scripts/Global/SFXPlayer.gd
+::res://Scenes/UI/::1731585222
+main_menu.tscn::PackedScene::4421371804839059810::1731585222::0::1::::<><>::res://Scripts/UI/main_menu.gd<>uid://coix21kwtrsjd::::res://Assets/Graphics/UI/Title.png<>uid://dad57hen2sgyy::::res://Assets/Graphics/UI/p1vp2.png<>uid://byj31nygo03af::::res://Assets/Graphics/UI/p1vcpu.png<>uid://bjcc6iev6u2v3::::res://Assets/Graphics/UI/Options.png
+options.tscn::PackedScene::6207388237486326978::1731585222::0::1::::<><>::res://Scripts/UI/OptionSliders.gd<>uid://clgmgjlrdsot0::::res://Assets/Graphics/UI/Game Volume.png<>uid://ci4gtorbgcl3q::::res://Assets/Graphics/UI/Back.png<>uid://dgeuitcsncikl::::res://Assets/Graphics/UI/SFX Volume.png
 ::res://Scripts/::1731014170
 icon.svg::CompressedTexture2D::5766691439608196572::1730897822::1731014170::1::::<><>::
 ::res://Scripts/Game/::1730897822

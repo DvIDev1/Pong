@@ -3,3 +3,4 @@ res://Scenes/UI/options.tscn
 res://Scenes/Game/p_1vsp_2.tscn
 res://Scenes/Global/MainMusicPlayer.tscn
 res://Scenes/Global/SFXPlayer.tscn
+res://Scripts/Game/player.gd
