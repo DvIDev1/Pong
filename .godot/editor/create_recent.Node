@@ -1,6 +1,7 @@
+CharacterBody2D
 Sprite2D
 CollisionShape2D
-CharacterBody2D
+RigidBody2D
 Node
 Label
 VBoxContainer
@@ -11,4 +12,3 @@ Control
 StaticBody2D
 AnimationPlayer
 AudioStreamPlayer
-MarginContainer
