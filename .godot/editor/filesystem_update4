@@ -3,6 +3,6 @@ res://Scenes/UI/options.tscn
 res://Scenes/Game/p_1vsp_2.tscn
 res://Scenes/Global/MainMusicPlayer.tscn
 res://Scenes/Global/SFXPlayer.tscn
-res://Scenes/Game/ball.gd
-res://Scripts/Game/Game.gd
-res://Scripts/Game/player.gd
+res://Scripts/UI/main_menu.gd
+res://Scenes/Game/p_1vscpu.tscn
+res://Scenes/Game/CPU.gd

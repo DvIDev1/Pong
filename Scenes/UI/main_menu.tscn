@@ -91,5 +91,6 @@ libraries = {
 movie_quit_on_finish = true
 
 [connection signal="button_down" from="HBoxContainer/VBoxContainer/MenuOptions/P1vsP2" to="." method="_on_p_1_vs_p_2_button_down"]
+[connection signal="button_down" from="HBoxContainer/VBoxContainer/MenuOptions/P1vsCPU" to="." method="_on_p_1_vs_cpu_button_down"]
 [connection signal="button_down" from="HBoxContainer/VBoxContainer/MenuOptions/Options" to="." method="_on_options_button_down"]
 [connection signal="mouse_entered" from="HBoxContainer/VBoxContainer/MenuOptions/Options" to="HBoxContainer/VBoxContainer/MenuOptions/Options" method="_on_mouse_entered"]

@@ -51,3 +51,9 @@ func _on_p_1_vs_p_2_button_down() -> void:
 func _on_options_button_down() -> void:
 	SFXPlayer.playSFX(clickSFX)
 	get_tree().change_scene_to_file("res://Scenes/UI/options.tscn")
+
+
+func _on_p_1_vs_cpu_button_down() -> void:
+	SFXPlayer.playSFX(clickSFX)
+	MainMusicPlayer._stop_music()
+	get_tree().change_scene_to_file("res://Scenes/Game/p_1vscpu.tscn")

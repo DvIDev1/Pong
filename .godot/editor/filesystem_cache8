@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731668543
+::res://::1732527143
 export_presets.cfg::TextFile::-1::1730897823::0::1::::<><>::
 ::res://addons/::1730897822
 ::res://addons/discord-rpc-gd/::1731014170
@@ -15,7 +15,7 @@ restart_window.tscn::PackedScene::4076847685139362056::1730897823::0::1::::<><>:
 discord-rpc-gd.gdextension::GDExtension::-1::1730897822::0::1::::<><>::
 ::res://addons/discord-rpc-gd/bin/linux/::1730897823
 ::res://addons/discord-rpc-gd/bin/macos/::1730897823
-::res://addons/discord-rpc-gd/bin/windows/::1731668528
+::res://addons/discord-rpc-gd/bin/windows/::1732527130
 ::res://addons/discord-rpc-gd/nodes/::1730897823
 debug.gd::GDScript::-1::1730897823::0::1::::<>Node<>::
 Debug.tscn::PackedScene::6635590667203094151::1730897823::0::1::::<><>::uid://dnfq6kug4x6o2::::res://addons/discord-rpc-gd/nodes/assets/Checked.svg<>uid://compmm3kviqqe::::res://addons/discord-rpc-gd/nodes/assets/Unchecked.svg<>uid://dtc6ckladq0td::::res://addons/discord-rpc-gd/nodes/assets/circle.svg
@@ -25,7 +25,7 @@ Checked.svg::CompressedTexture2D::8083066295081234619::1730897823::1731014170::1
 circle.svg::CompressedTexture2D::8498865176304625629::1730897823::1731014170::1::::<><>::
 Unchecked.svg::CompressedTexture2D::5781190569803204660::1730897823::1731014170::1::::<><>::
 ::res://Assets/::1731588381
-::res://Assets/Audio/::1731672457
+::res://Assets/Audio/::1731672459
 Click.wav::AudioStreamWAV::679787611729937655::1730897822::1731014170::1::::<><>::
 hit.wav::AudioStreamWAV::7126878108933900908::1731672433::1731672459::1::::<><>::
 Pong_MainMenu.mp3::AudioStreamMP3::9070507199703160234::1730897822::1731014170::1::::<><>::
@@ -51,25 +51,26 @@ Title.png::CompressedTexture2D::5773446289701001461::1730897822::1731014170::1::
 MusicMixer.tres::AudioBusLayout::2837011748484697921::1730897822::0::1::::<><>::
 SFX.tres::AudioBusLayout::4257769473134840630::1731014142::0::1::::<><>::
 ::res://Scenes/::1730897822
-::res://Scenes/Game/::1731672398
-p_1vsp_2.tscn::PackedScene::2413806616353913112::1731672398::0::1::::<><>::res://Scripts/Game/Game.gd<>uid://bigig7t8q5si3::::res://Assets/Graphics/Game/Divider.png<>uid://n3gjcadnugqx::::res://Assets/Fonts/Minecraft.ttf<>res://Scripts/Game/player.gd<>uid://bex5t2s8gbqa2::::res://Assets/Graphics/Game/Paddle.png<>res://Scenes/Game/ball.gd<>uid://dhcd52yrq4w0n::::res://Assets/Graphics/Game/Ball.png
-ball.gd::GDScript::-1::1731671334::0::1::::<>CharacterBody2D<>::
-::res://Scenes/Global/::1731672398
-MainMusicPlayer.tscn::PackedScene::3070770510073996735::1731672398::0::1::::<><>::res://Scripts/Global/MainMusicPlayer.gd
-SFXPlayer.tscn::PackedScene::2742808072468994342::1731672398::0::1::::<><>::res://Scripts/Global/SFXPlayer.gd
-::res://Scenes/UI/::1731672398
-main_menu.tscn::PackedScene::4421371804839059810::1731672397::0::1::::<><>::res://Scripts/UI/main_menu.gd<>uid://coix21kwtrsjd::::res://Assets/Graphics/UI/Title.png<>uid://dad57hen2sgyy::::res://Assets/Graphics/UI/p1vp2.png<>uid://byj31nygo03af::::res://Assets/Graphics/UI/p1vcpu.png<>uid://bjcc6iev6u2v3::::res://Assets/Graphics/UI/Options.png
-options.tscn::PackedScene::6207388237486326978::1731672398::0::1::::<><>::res://Scripts/UI/OptionSliders.gd<>uid://clgmgjlrdsot0::::res://Assets/Graphics/UI/Game Volume.png<>uid://ci4gtorbgcl3q::::res://Assets/Graphics/UI/Back.png<>uid://dgeuitcsncikl::::res://Assets/Graphics/UI/SFX Volume.png
+::res://Scenes/Game/::1732527507
+ball.gd::GDScript::-1::1731681384::0::1::::<>CharacterBody2D<>::
+p_1vsp_2.tscn::PackedScene::2413806616353913112::1732527507::0::1::::<><>::res://Scripts/Game/Game.gd<>uid://bigig7t8q5si3::::res://Assets/Graphics/Game/Divider.png<>uid://n3gjcadnugqx::::res://Assets/Fonts/Minecraft.ttf<>res://Scripts/Game/player.gd<>uid://bex5t2s8gbqa2::::res://Assets/Graphics/Game/Paddle.png<>res://Scenes/Game/ball.gd<>uid://dhcd52yrq4w0n::::res://Assets/Graphics/Game/Ball.png
+p_1vscpu.tscn::PackedScene::3154375616285646146::1732527744::0::1::::<><>::res://Scripts/Game/Game.gd<>uid://bigig7t8q5si3::::res://Assets/Graphics/Game/Divider.png<>uid://n3gjcadnugqx::::res://Assets/Fonts/Minecraft.ttf<>res://Scripts/Game/player.gd<>uid://bex5t2s8gbqa2::::res://Assets/Graphics/Game/Paddle.png<>res://Scenes/Game/ball.gd<>uid://dhcd52yrq4w0n::::res://Assets/Graphics/Game/Ball.png
+::res://Scenes/Global/::1732527507
+MainMusicPlayer.tscn::PackedScene::3070770510073996735::1732527507::0::1::::<><>::res://Scripts/Global/MainMusicPlayer.gd
+SFXPlayer.tscn::PackedScene::2742808072468994342::1732527507::0::1::::<><>::res://Scripts/Global/SFXPlayer.gd
+::res://Scenes/UI/::1732527507
+main_menu.tscn::PackedScene::4421371804839059810::1732527507::0::1::::<><>::res://Scripts/UI/main_menu.gd<>uid://coix21kwtrsjd::::res://Assets/Graphics/UI/Title.png<>uid://dad57hen2sgyy::::res://Assets/Graphics/UI/p1vp2.png<>uid://byj31nygo03af::::res://Assets/Graphics/UI/p1vcpu.png<>uid://bjcc6iev6u2v3::::res://Assets/Graphics/UI/Options.png
+options.tscn::PackedScene::6207388237486326978::1732527507::0::1::::<><>::res://Scripts/UI/OptionSliders.gd<>uid://clgmgjlrdsot0::::res://Assets/Graphics/UI/Game Volume.png<>uid://ci4gtorbgcl3q::::res://Assets/Graphics/UI/Back.png<>uid://dgeuitcsncikl::::res://Assets/Graphics/UI/SFX Volume.png
 ::res://Scripts/::1731014170
 icon.svg::CompressedTexture2D::5766691439608196572::1730897822::1731014170::1::::<><>::
-::res://Scripts/Game/::1731670417
+::res://Scripts/Game/::1731676252
 Game.gd::GDScript::-1::1731670417::0::1::::<>Node2D<>::
-player.gd::GDScript::-1::1731592419::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1731676252::0::1::::<>CharacterBody2D<>::
 ::res://Scripts/Global/::1731014144
 MainMusicPlayer.gd::GDScript::-1::1730897822::0::1::::<>AudioStreamPlayer<>::
 SFXPlayer.gd::GDScript::-1::1731014144::0::1::::<>AudioStreamPlayer<>::
 ::res://Scripts/Math/::1730897822
 EasingFunctions.gd::GDScript::-1::1730897822::0::1::::EasingFunctions<>Node<>::
 ::res://Scripts/UI/::1731014144
-main_menu.gd::GDScript::-1::1731014144::0::1::::<>MarginContainer<>::
+main_menu.gd::GDScript::-1::1732527710::0::1::::<>MarginContainer<>::
 OptionSliders.gd::GDScript::-1::1731014144::0::1::::<>Control<>::

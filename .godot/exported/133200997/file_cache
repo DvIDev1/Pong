@@ -1,0 +1,10 @@
+res://addons/discord-rpc-gd/nodes/Debug.tscn::2f55f1c3f5d835f31fa4437032cd4dad::1730897823::res://.godot/exported/133200997/export-d928f068a1bafec7d86411894a66c6a8-Debug.scn
+res://addons/discord-rpc-gd/restart_window.tscn::8395450f311dee441578bd454ccea04b::1730897823::res://.godot/exported/133200997/export-a83ca32fd2b1f993c75747100575ce7a-restart_window.scn
+res://Elements/Mixers/MusicMixer.tres::53c2108d567b491cef0b4bd1ed0a043e::1730897822::res://.godot/exported/133200997/export-6357a52185b223411bb0253336de66c9-MusicMixer.res
+res://Elements/Mixers/SFX.tres::68edc8ab0d56dad5b85ac52e65872364::1731014142::res://.godot/exported/133200997/export-632121974e92eff34432374fdc50c795-SFX.res
+res://Scenes/Game/p_1vscpu.tscn::179f255f85d5abff23ea6c5716ec9699::1732549957::res://.godot/exported/133200997/export-7a8359345a0c91f240ee0389d30a3e1e-p_1vscpu.scn
+res://Scenes/Game/p_1vsp_2.tscn::50e4dc619f3b05a25a578ab8669d685b::1732527507::res://.godot/exported/133200997/export-ffd9d56188536087c2dcc77ad525f2c8-p_1vsp_2.scn
+res://Scenes/Global/MainMusicPlayer.tscn::6b82c783f816d6a39ea50d6d457a70e4::1732549957::res://.godot/exported/133200997/export-1347f58272966a0c03f92abdf5ca1082-MainMusicPlayer.scn
+res://Scenes/Global/SFXPlayer.tscn::7906265628cee8f6e624e5f50b593a8c::1732549957::res://.godot/exported/133200997/export-88676f7dc469e5a8cbfc0d568f702d11-SFXPlayer.scn
+res://Scenes/UI/main_menu.tscn::60ed797ce58a4fc8d17214d2e25fd8b5::1732549957::res://.godot/exported/133200997/export-f42f7f3102c37a88392546843bad643d-main_menu.scn
+res://Scenes/UI/options.tscn::4655b15a672d1dc7d19f557c4e703c45::1732549957::res://.godot/exported/133200997/export-44169433b2749214cd5d435ee54b4a9a-options.scn
