@@ -6,7 +6,7 @@ The Classic Retro Game with an 1v1 and p vs ai mode.
 - All Assets VFX and Coding done by me
 - Music Made in FL Studio
 - Sprites Made in Aseprite
-- VFX Made in sfxr
+- SFX Made in sfxr
 
 The Goal of this project was to get familiar with Godot and Basic UI , Physics and Ai (also added Discord RPC for fun)
 
